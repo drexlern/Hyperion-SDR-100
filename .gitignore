@@ -1,0 +1,25 @@
+# Python Virtual Environment & Cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# KiCad Auto-Backups, Lock Files & Temporary Outputs
+*-backups/
+*.lck
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+fp-info-cache
+
+# PlatformIO / C++ Build Artifacts
+.pio/
+build/
+*.o
+*.elf
+*.bin
+
+# OS & Editor Junk
+.DS_Store
+Thumbs.db
