@@ -11,12 +11,12 @@ Hyperion SDR-100 is designed modularly so each RF, embedded, and software subsys
 * **`/hardware-atu` — 100W 7×7 Automatic Antenna Tuner (KiCad):**
   * **Matching Network:** Binary-switched 7-inductor ($0.05\,\mu\text{H}$ – $4.5\,\mu\text{H}$ on Micrometals Type-2 powdered iron toroids) and 7-capacitor ($10\,\text{pF}$ – $1000\,\text{pF}$, $1\,\text{kV}$ C0G/NP0) L-network.
   * **Switching Matrix:** 16 Omron G2RL power relays ($14\times$ G2RL-1 SPDT for L/C banks, $1\times$ G2RL-2 DPDT for L/C topology reversal, $1\times$ G2RL-2 DPDT for full tuner bypass) driven via two daisy-chained **TI TPIC6B595N** open-drain shift registers.
-  * **SWR & Power Sensing:** Built-in **Tandem Match (Stockton) directional coupler** wound on Fair-Rite BN43-202 binocular cores with 1N5711 Schottky peak detectors and $3.3\,\text{V}$ Zener ADC overvoltage protection[cite: 3, 4].
+  * **SWR & Power Sensing:** Built-in **Tandem Match (Stockton) directional coupler** wound on Fair-Rite BN43-202 binocular cores with 1N5711 Schottky peak detectors and $3.3\,\text{V}$ Zener ADC overvoltage protection.
   * **Controller:** **Seeed Studio XIAO ESP32-C3** mounted via through-hole headers for autonomous SWR tuning and USB/UART telemetry.
 * **`/desktop-gui` — Shack Control Head (Python / Dear ImGui):**
-  * 60 FPS OpenGL panadapter and 2D waterfall display powered by `imgui-bundle` (Dear ImGui + ImPlot) and `numpy`[cite: 3, 5].
+  * 60 FPS OpenGL panadapter and 2D waterfall display powered by `imgui-bundle` (Dear ImGui + ImPlot) and `numpy`.
   * Live VFO tuning, band switching, real-time 16-relay ATU state visualizer, forward/reflected power & SWR metering, and a 180-second TX watchdog timer.
-  * Designed for local Windows/Linux shack operation and low-latency remote streaming via **Parsec**[cite: 3, 5].
+  * Designed for local Windows/Linux shack operation and low-latency remote streaming via **Parsec**.
 * **`/firmware-esp32c3` — ATU Firmware (C++ / PlatformIO):** *(In Development)*
   * High-speed SPI shift-register control, ADC forward/reflected power sampling, and automated L/C impedance matching algorithms.
 * **`/zynq-soc` — SDR Baseband & DSP (HDL / ARM C++):** *(Planned)*
