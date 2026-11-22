@@ -2,7 +2,7 @@
 
 Copyright (c) 2026 Nate Drexler/WI0J
 
-This repository contains both **hardware design files** (schematics, PCB layouts, Gerber files, Bills of Materials, and mechanical drawings) and **software/gateware source code** (Python desktop applications, embedded C/C++ firmware, and HDL source files). Different open-source licenses apply to each category as specified below[cite: 3]:
+This repository contains both **hardware design files** (schematics, PCB layouts, Gerber files, Bills of Materials, and mechanical drawings) and **software/gateware source code** (Python desktop applications, embedded C/C++ firmware, and HDL source files). Different open-source licenses apply to each category as specified below:
 
 ---
 
