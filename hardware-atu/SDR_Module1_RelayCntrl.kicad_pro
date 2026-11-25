@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,9 +52,9 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 1,
+          "fill_mode": 1,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
@@ -64,13 +64,36 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|122876000|230392500|ee8e168a-ff71-43e0-a34c-02631fe2f050|ab7f4acf-8ae3-4e35-a2ac-e6c82cbdaac0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|131874441|230392500|ee8e168a-ff71-43e0-a34c-02631fe2f050|74e355b9-9c6c-467c-bf11-5b3b34146350",
+          ""
+        ],
+        [
+          "silk_edge_clearance|136380000|230204000|ee8e168a-ff71-43e0-a34c-02631fe2f050|02fa2a81-0896-4e6f-ae88-c2804dc97404",
+          ""
+        ],
+        [
+          "text_height|137655000|219425000|18fe89d4-a487-4269-840a-c4801fad082a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -115,7 +138,7 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -206,7 +229,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.2,
+        1.5,
+        2.0,
+        2.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +262,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -554,13 +588,102 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "RF_100W",
+        "pattern": "/C_BUS"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(J2-*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(J3-*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(T1-AB)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K17-Pad1*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K17-Pad2*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K16-Pad1*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K16-Pad2*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K1-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K2-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K3-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K4-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K5-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K6-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(K7-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C7-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C8-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C9-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C10-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C11-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C12-Pad*)"
+      },
+      {
+        "netclass": "RF_100W",
+        "pattern": "Net-(C13-Pad*)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

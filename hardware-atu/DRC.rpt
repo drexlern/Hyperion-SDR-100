@@ -1,0 +1,43 @@
+** Drc report for SDR_Module1_RelayCntrl.kicad_pcb **
+** Created on 2026-11-25T00:39:22 **
+** Report includes: Errors, Warnings **
+
+** Found 8 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(247.5750 mm, 151.2050 mm): Footprint L4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(248.0750 mm, 94.2050 mm): Footprint L7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(247.0750 mm, 171.2050 mm): Footprint L3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(177.1900 mm, 118.5800 mm): Footprint T1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(247.5750 mm, 188.7050 mm): Footprint L2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(247.5750 mm, 131.7050 mm): Footprint L5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(247.0750 mm, 113.2050 mm): Footprint L6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom_footprints'
+    Local override; warning
+    @(177.1900 mm, 145.5800 mm): Footprint T2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clipped by solder mask
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
