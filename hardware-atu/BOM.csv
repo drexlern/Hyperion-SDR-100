@@ -1,0 +1,33 @@
+Ref Des,Board Qty,Order / Stock Qty,Component Description,Manufacturer / MPN,Source,Part No. / Status
+"K1–K7, K9–K15",14,14,"Power Relay, SPDT, 12VDC Coil, 12A/16A, THT",Omron / G2RL-1-DC12,Newark,07C7668 (Ordered)
+"K16, K17",2,2,"Power Relay, DPDT, 12VDC Coil, 8A, THT",Omron / G2RL-2-DC12,Newark,27C9194 (Ordered)
+"U4, U5",2,2,"8-Bit Power Logic Shift Register, Open-Drain, DIP-20",Texas Instruments / TPIC6B595N,DigiKey,296-1956-5-ND (Ordered)
+"(Sockets for U4, U5)",2,2,"IC Socket, 20-Pos DIP, 0.300"" Pitch, Tin",CNC Tech / 243-20-1-03,DigiKey,1175-1479-ND (Ordered)
+U3,1,1,"Linear Voltage Regulator IC, +5V 1.5A, TO-220",STMicroelectronics / L7805CV,DigiKey,497-1443-5-ND (Ordered)
+U1,1,1,Seeed Studio XIAO ESP32-C3 MCU Module,Seeed Technology / 113991054,DigiKey,1597-113991054-ND (Ordered)
+(Headers for U1),2,10,"Header, 7-Pos, 2.54mm (0.100"") Pitch",Sullins / PPTC071LFBN-RC,DigiKey,S7005-ND (Ordered)
+"D1, D2",2,10,"General Purpose Rectifier Diode, 1000V 1A, DO-204AC",Diotec / 1N4007,DigiKey,4878-1N4007CT-ND (Ordered)
+(Power Diode Spare),—,10,"Schottky Barrier Diode, 30V 3A, DO-201AD (Substituted for 1N5821RL)",MCC / 1N5821-TP,DigiKey,1N5821-TPMSCT-ND (Ordered)
+"D3, D4",2,—,"Schottky Barrier Diode, 70V 15mA, DO-35 (SWR Peak Detectors)",1N5711,Amazon,Ordered
+"D5, D6",2,10,"Zener Diode, 3.3V 500mW, DO-35 (ADC Clamps)",onsemi / 1N5226BTR,DigiKey,1N5226BFSCT-ND (Ordered)
+C1,1,10,"Aluminum Electrolytic Capacitor, 47µF 25V, Radial",Panasonic / ECA-1EM470,DigiKey,P5151-ND (Ordered)
+"C2–C6, C14",6,20,"MLCC Capacitor, 0.1µF (100nF) 50V X7R, Radial",Vishay BC / K104K15X7RF5TL2,DigiKey,BC1084CT-ND (Ordered)
+C7,1,—,"Ceramic Capacitor, 10 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RDE5C3A100J2K1H03B,DigiKey,490-RDE5C3A100J2K1H03B-ND
+C8,1,—,"Ceramic Capacitor, 22 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RCE5C3A220J2M1H03A,DigiKey,490-RCE5C3A220J2M1H03ACT-ND
+C9,1,—,"Ceramic Capacitor, 47 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RDE5C3A470J2K1H03B,DigiKey,490-RDE5C3A470J2K1H03B-ND
+C10,1,—,"Ceramic Capacitor, 100 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RCE5C3A101J2M1H03A,DigiKey,490-RCE5C3A101J2M1H03ACT-ND
+C11,1,—,"Ceramic Capacitor, 220 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RCE5C3A221J2K1H03B,DigiKey,490-RCE5C3A221J2K1H03B-ND
+C12,1,—,"Ceramic Capacitor, 470 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RCE5C3A471J2K1H03B,DigiKey,490-RCE5C3A471J2K1H03B-ND
+C13,1,—,"Ceramic Capacitor, 1000 pF 1000V (1kV) C0G/NP0 ±5%, 5.0mm Pitch",Murata / RDE5C3A102J2K1H03B,DigiKey,490-RDE5C3A102J2K1H03B-ND
+"C15, C16",2,10,"MLCC Capacitor, 10nF (10000pF) 50V X7R, Radial",Vishay BC / K103K15X7RF5TL2,DigiKey,BC1078CT-ND (Ordered)
+"R1, R2",2,10,"Metal Film Resistor, 100Ω 5% 1W, Axial",Vishay BC / PR01000101000JR500,DigiKey,56-PR01000101000JR500CT-ND (Ordered)
+R3–R6,4,10,"Metal Film Resistor, 32.4kΩ 1% 1/4W, Axial",Yageo / MFR-25FBF52-32K4,DigiKey,32.4KXBK-ND (Ordered)
+J1,1,1,"Terminal Block, 2-Pos Side Entry, 2.54mm Pitch",TE Connectivity / 282834-2,DigiKey,A98333-ND (Ordered)
+"J2, J3",2,—,"SMA Coaxial Jack Connector, Vertical PCB Mount, 50Ω",Standard 5-Pin Vertical SMA,On Hand,Bench Parts Box
+J4,1,10,"Header, Vertical 3-Pos, 2.54mm Pitch",Molex / 0022232031,DigiKey,WM4201-ND (Ordered)
+TP1–TP10,10,25,"PC Test Point Miniature, Red, THT",Keystone Electronics / 5000,DigiKey,36-5000-ND (Ordered)
+"T1, T2 (Cores)",2,10,"Binocular Ferrite Core, Type 43 (BN-43-202)",Fair-Rite / BN-43-202,Kits & Parts,Product ID 1 (Ordered)
+L3–L7 (Cores),5,25,"Powdered Iron Toroid Core, Red Mix 2 (T68-2)",Micrometals / T68-2,Kits & Parts,Product ID 4 (Ordered)
+L1–L7 (Wire),~6 ft,10 ft,"Enameled Copper Magnet Wire, 18 AWG",Kits and Parts / 18 AWG,Kits & Parts,Product ID 2 (Ordered)
+"T1, T2 (Wire)",~1 ft,10 ft,"Enameled Copper Magnet Wire, 27 AWG",Kits and Parts / 27 AWG,Kits & Parts,Product ID 3 (Ordered)
+"T1, T2 (Primary)",~4 in,—,RG-316 Coax (PTFE center conductor used as 1-turn primary tube),Generic RG-316,On Hand,Bench Parts Box

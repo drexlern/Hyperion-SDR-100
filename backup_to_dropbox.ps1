@@ -1,0 +1,1 @@
+robocopy "C:\Users\terra\Projects\Hyperion-SDR-100" "C:\Users\terra\Dropbox\HAM\Hyperion-SDR-100-Backup" /MIR /XD .git .venv .pio .history __pycache__ *-backups /XF *.lck *.bak
