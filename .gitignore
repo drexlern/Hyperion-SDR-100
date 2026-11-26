@@ -25,3 +25,4 @@ build/
 # OS & Editor Junk
 .DS_Store
 Thumbs.db
+**/.history/
